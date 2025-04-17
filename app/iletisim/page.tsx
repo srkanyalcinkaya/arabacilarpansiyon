@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: "İletişim | Arabacılar Pansiyon & Hotel",
   description: "Arabacılar Pansiyon & Hotel ile iletişime geçin. Adres: Karşıyaka, İzmir. Telefon: +90 533 162 55 39. E-posta: arabacilarpansiyon@gmail.com",
-  keywords: "Arabacılar Pansiyon iletişim, Bursa otel iletişim, otel rezervasyon, pansiyon telefon, otel adres, iletişim bilgileri",
+  keywords: "Arabacılar Pansiyon iletişim, İzmir otel iletişim, otel rezervasyon, pansiyon telefon, otel adres, iletişim bilgileri",
   openGraph: {
     title: "İletişim | Arabacılar Pansiyon & Hotel",
     description: "Arabacılar Pansiyon & Hotel ile iletişime geçin. Soru ve rezervasyonlarınız için bize ulaşın.",

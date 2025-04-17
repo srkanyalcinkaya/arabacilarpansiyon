@@ -37,11 +37,11 @@ const locations = [
 
 export const metadata: Metadata = {
   title: "Lokasyon | Arabacılar Pansiyon & Hotel",
-  description: "Arabacılar Pansiyon & Hotel'in Bursa'daki konumu ve ulaşım bilgileri. Tuna Mah. 1690 Sk. No:71, Karşıyaka, İzmir'de merkezi konumda hizmet vermekteyiz.",
-  keywords: "Arabacılar Pansiyon lokasyon, Bursa otel konum, pansiyon nerede, otele ulaşım, merkezi konaklama, Bursa merkez otel",
+  description: "Arabacılar Pansiyon & Hotel'in İzmir'deki konumu ve ulaşım bilgileri. Tuna Mah. 1690 Sk. No:71, Karşıyaka, İzmir'de merkezi konumda hizmet vermekteyiz.",
+  keywords: "Arabacılar Pansiyon lokasyon, İzmir otel konum, pansiyon nerede, otele ulaşım, merkezi konaklama, İzmir merkez otel",
   openGraph: {
     title: "Lokasyon | Arabacılar Pansiyon & Hotel",
-    description: "Arabacılar Pansiyon & Hotel'in Bursa'daki konumu ve ulaşım bilgileri.",
+    description: "Arabacılar Pansiyon & Hotel'in İzmir'deki konumu ve ulaşım bilgileri.",
     url: 'https://arabacilarpansiyon.com/lokasyon',
     images: [
       {
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Lokasyon | Arabacılar Pansiyon & Hotel",
-    description: "Arabacılar Pansiyon & Hotel'in Bursa'daki konumu ve ulaşım bilgileri.",
+    description: "Arabacılar Pansiyon & Hotel'in İzmir'deki konumu ve ulaşım bilgileri.",
     images: ['/images/iletisim.jpg'],
   },
 }

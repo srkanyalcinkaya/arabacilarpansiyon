@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: "Sıkça Sorulan Sorular | Arabacılar Pansiyon & Hotel",
   description: "Arabacılar Pansiyon & Hotel hakkında sıkça sorulan sorular ve yanıtları. Check-in/check-out saatleri, rezervasyon iptali, oda özellikleri ve daha fazlası.",
-  keywords: "Arabacılar Pansiyon SSS, Bursa otel soruları, pansiyon rezervasyon bilgisi, otel SSS, konaklama soruları, check-in saati, check-out saati",
+  keywords: "Arabacılar Pansiyon SSS, İzmir otel soruları, pansiyon rezervasyon bilgisi, otel SSS, konaklama soruları, check-in saati, check-out saati",
   openGraph: {
     title: "Sıkça Sorulan Sorular | Arabacılar Pansiyon & Hotel",
     description: "Arabacılar Pansiyon & Hotel ile ilgili en çok sorulan sorular ve yanıtları.",

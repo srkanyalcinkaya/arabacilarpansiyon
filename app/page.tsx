@@ -1,7 +1,5 @@
 'use client'
-import Image from "next/image";
-import { TypeAnimation } from 'react-type-animation';
-import { FaSnowflake, FaTv, FaWifi, FaKey, FaCoffee, FaTrash, FaWind, FaParking, FaWater, FaShoppingBag, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import { FaSnowflake, FaTv, FaWifi, FaKey, FaCoffee, FaParking, FaWater, FaShoppingBag, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import Link from "next/link";
 import { ImSpoonKnife } from "react-icons/im";
 import { FaPersonWalkingLuggage } from "react-icons/fa6";
@@ -16,13 +14,6 @@ import { MdFamilyRestroom, MdCleaningServices } from "react-icons/md";
 import { BsImageFill, BsShieldCheck, BsFillHeartFill } from "react-icons/bs";
 import { FaCouch } from "react-icons/fa";
 import { useState } from "react";
-import { Metadata } from "next";
-
-// 'use client' kullanıldığı için metadata tanımını export const olarak yapamayız
-// Ana sayfanın SEO bilgileri layout.tsx'de tanımlandı
-
-const mainColor = "#FFD600";
-const darkColor = "#383e42";
 
 const hotelFeatures = [
   {
@@ -210,10 +201,10 @@ export default function Home() {
         </div> */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 relative">
-          <div className="flex flex-col gap-4 items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  p-6 rounded-lg bg-white/50">
+          {/* <div className="flex flex-col gap-4 items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  p-6 rounded-lg bg-white/50">
             <Link href="/odalarımız" className="max-w-md w-full px-4 py-2 bg-white text-[#383e42] font-semibold rounded-full shadow hover:bg-[#FFD600] hover:text-[#383e42] transition text-center">Odalarımıza Göz At</Link>
             <Link href="/iletisim" className="max-w-md w-full px-4 py-2 bg-[#FFD600] text-[#383e42] font-semibold rounded-full shadow hover:bg-white hover:text-[#383e42] transition text-center">İletişime Geç</Link>
-          </div>
+          </div> */}
           <div>
             <img src="/images/izmir-2.jpg" alt="Kapak" className="object-cover object-center w-full h-full" />
           </div>

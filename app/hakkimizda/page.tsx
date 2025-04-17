@@ -3,11 +3,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Hakkımızda | Arabacılar Pansiyon & Hotel",
-  description: "10 yılı aşkın tecrübemizle, Bursa'nın merkezinde ev konforunda, güvenli ve hijyenik konaklama hizmeti sunuyoruz. Arabacılar Pansiyon'u daha yakından tanıyın.",
-  keywords: "Arabacılar Pansiyon hakkında, Bursa pansiyon hikayesi, otel tanıtım, Bursa konaklama hizmetleri, kaliteli pansiyon",
+  description: "10 yılı aşkın tecrübemizle, İzmir'in merkezinde ev konforunda, güvenli ve hijyenik konaklama hizmeti sunuyoruz. Arabacılar Pansiyon'u daha yakından tanıyın.",
+  keywords: "Arabacılar Pansiyon hakkında, İzmir pansiyon hikayesi, otel tanıtım, İzmir konaklama hizmetleri, kaliteli pansiyon",
   openGraph: {
     title: "Hakkımızda | Arabacılar Pansiyon & Hotel",
-    description: "10 yılı aşkın tecrübemizle, Bursa'nın merkezinde ev konforunda, güvenli ve hijyenik konaklama hizmeti sunuyoruz.",
+    description: "10 yılı aşkın tecrübemizle, İzmir'in merkezinde ev konforunda, güvenli ve hijyenik konaklama hizmeti sunuyoruz.",
     url: 'https://arabacilarpansiyon.com/hakkimizda',
     type: 'article',
     images: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Hakkımızda | Arabacılar Pansiyon & Hotel",
-    description: "10 yılı aşkın tecrübemizle, Bursa'nın merkezinde ev konforunda, güvenli ve hijyenik konaklama hizmeti sunuyoruz.",
+    description: "10 yılı aşkın tecrübemizle, İzmir'in merkezinde ev konforunda, güvenli ve hijyenik konaklama hizmeti sunuyoruz.",
     images: ['/images/iletisim.jpg'],
   },
 }

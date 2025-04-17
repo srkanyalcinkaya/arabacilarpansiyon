@@ -1,5 +1,5 @@
 import React from 'react'
-import RoomGallery from '../components/RoomGallery'
+import RoomGallery from '@/components/RoomGallery'
 import type { Metadata } from 'next'
 
 // Standart oda için tüm resimleri tanımlıyoruz
@@ -28,7 +28,7 @@ const room = {
 export const metadata: Metadata = {
   title: "Odalarımız | Arabacılar Pansiyon & Hotel",
   description: "Arabacılar Pansiyon & Hotel'in konforlu ve modern odaları. Tek kişilik, çift kişilik ve aile odaları ile tüm ihtiyaçlarınıza uygun konaklama seçenekleri.",
-  keywords: "Arabacılar Pansiyon odaları, Bursa otel odaları, pansiyon oda seçenekleri, ekonomik oda, lüks oda, konforlu konaklama, temiz odalar",
+  keywords: "Arabacılar Pansiyon odaları, İzmir otel odaları, pansiyon oda seçenekleri, ekonomik oda, lüks oda, konforlu konaklama, temiz odalar",
   openGraph: {
     title: "Odalarımız | Arabacılar Pansiyon & Hotel",
     description: "Arabacılar Pansiyon & Hotel'in konforlu ve modern odaları. Çeşitli oda seçeneklerimiz ile misafirlerimizin tüm ihtiyaçlarını karşılıyoruz.",
