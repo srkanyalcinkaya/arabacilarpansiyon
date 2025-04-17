@@ -152,12 +152,12 @@ const faqItems = [
   {
     icon: <VscCoffee size={28} />,
     title: "Mini bar var mı?",
-    description: "Bazı odalarımızda mini bar mevcuttur."
+    description: "Her odalarımızda mini bar mevcuttur."
   }, 
   {
     icon: <GiCoffeePot size={28} />,
-    title: "Ketil kullanımı var mı?",
-    description: "Ketil kullanımı vardır."
+    title: "Kettle kullanımı var mı?",
+    description: "Kettle kullanımı vardır."
   }
 ];
 
@@ -206,10 +206,10 @@ export default function Home() {
             <Link href="/iletisim" className="max-w-md w-full px-4 py-2 bg-[#FFD600] text-[#383e42] font-semibold rounded-full shadow hover:bg-white hover:text-[#383e42] transition text-center">İletişime Geç</Link>
           </div> */}
           <div>
-            <img src="/images/izmir-2.jpg" alt="Kapak" className="object-cover object-center w-full h-full" />
+            <img src="/images/izmir-2.jpg" alt="Kapak" className="object-cover object-center w-full  md:h-4/5 h-full" />
           </div>
           <div>
-            <img src="/images/izmir-1.jpg" alt="Kapak" className="object-cover object-center w-full h-full" />
+            <img src="/images/izmir-4.jpeg" alt="Kapak" className="object-cover object-center w-full md:h-4/5 h-full" />
           </div>
         </div>
       </section>
@@ -246,10 +246,10 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-8 text-[#383e42] text-center">Odalarımız</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-10 py-4 bg-white rounded-xl">
           <div className="  w-full h-full flex flex-col items-center">
-            <img src="/images/room-1.jpeg" alt="Standart Oda" className="rounded-lg  w-full h-full" />
+            <img src="/images/room-1.jpeg" alt="Süit Oda" className="rounded-lg  w-full h-full" />
           </div>
           <div className="flex flex-col items-start justify-center">
-            <h3 className="text-xl md:text-3xl font-semibold mb-2 text-[#383e42]">Standart Oda</h3>
+            <h3 className="text-xl md:text-3xl font-semibold mb-2 text-[#383e42]">Süit Oda</h3>
             <p className="text-gray-600 text-start">Tüm Dünya'nın akın ettiği İzmir Karşıyaka'nın tam ortasında, Karşıyaka iskeleye 2 dakika mesafede ve konforlu yatak, klima, ücretsiz Wi-Fi ve özel banyo ile huzurlu odalarımızla hizmet veriyoruz. Odalarımız 1+1 şeklinde dizayn edilmiş olup, konfor ve kullanışlılık ön planda tutulmuştur.</p>
           </div>
         </div>
@@ -258,7 +258,7 @@ export default function Home() {
       {/* Otel Özellikleri */}
       <section id="ozellikler" className="w-full max-w-6xl mt-20 px-4">
         <h2 className="text-3xl font-bold mb-8 text-[#383e42] text-center">Pansiyonumuz</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center mb-10" >
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center mb-10" >
           <div className="flex flex-row items-center justify-center gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
             <FaWater size={40} color="skyblue" />
             <div className="h-12 w-[1px] bg-[#383e42]" />

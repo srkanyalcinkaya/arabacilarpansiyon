@@ -2,10 +2,10 @@ import React from 'react'
 import RoomGallery from '@/components/RoomGallery'
 import type { Metadata } from 'next'
 
-// Standart oda için tüm resimleri tanımlıyoruz
+// Süit oda için tüm resimleri tanımlıyoruz
 const room = {
   id: 1,
-  name: 'Standart Oda',
+  name: 'Süit Oda',
   images: [
     '/images/room-1.jpeg',
     '/images/room-2.jpeg',
