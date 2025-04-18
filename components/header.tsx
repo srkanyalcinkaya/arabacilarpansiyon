@@ -99,7 +99,7 @@ export default function Header() {
                     className={`fixed inset-0 bg-white z-50 transform ${
                         isMenuOpen ? 'translate-x-0' : 'translate-x-full'
                     } transition-transform duration-300 ease-in-out pt-8`}
-                    style={{ top: '120px' }}
+                    style={{ top: '126px' }}
                 >
                     <div className="px-8 pb-6 flex flex-col">
                         <div className="border-b border-[#383e42] pb-4 mb-4">

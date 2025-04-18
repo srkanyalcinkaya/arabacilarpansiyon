@@ -259,7 +259,7 @@ export default function Home() {
       <section id="ozellikler" className="w-full max-w-6xl mt-20 px-4">
         <h2 className="text-3xl font-bold mb-8 text-[#383e42] text-center">Pansiyonumuz</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center mb-10" >
-          <div className="flex flex-row items-center justify-center gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
+          <div className="flex flex-row items-center justify-start gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
             <FaWater size={40} color="skyblue" />
             <div className="h-12 w-[1px] bg-[#383e42]" />
             <div className="flex flex-col items-start justify-center">
@@ -267,7 +267,7 @@ export default function Home() {
               <span className="text-gray-500 text-sm mb-4">Tertemiz</span>
             </div>
           </div>
-          <div className="flex flex-row items-center justify-center gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
+          <div className="flex flex-row items-center justify-start gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
             <ImSpoonKnife size={40} color="gray" />
             <div className="h-12 w-[1px] bg-[#383e42]" />
             <div className="flex flex-col items-start justify-center">
@@ -275,7 +275,7 @@ export default function Home() {
               <span className="text-gray-500 text-sm mb-4">Erişim Kolaylığı</span>
             </div>
           </div>
-          <div className="flex flex-row items-center justify-center gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
+          <div className="flex flex-row items-center justify-start gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
             <FaShoppingBag size={40} color="green" />
             <div className="h-12 w-[1px] bg-[#383e42]" />
             <div className="flex flex-col items-start justify-center">
@@ -283,7 +283,7 @@ export default function Home() {
               <span className="text-gray-500 text-sm mb-4">Aradığınız Herşey</span>
             </div>
           </div>
-          <div className="flex flex-row items-center justify-center gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
+          <div className="flex flex-row items-center justify-start gap-3 hover:bg-white/70 transition-all duration-300 px-4 py-2 rounded-xl">
             <FaPersonWalkingLuggage size={40} color="black" />
             <div className="h-12 w-[1px] bg-[#383e42]" />
             <div className="flex flex-col items-start justify-center">
