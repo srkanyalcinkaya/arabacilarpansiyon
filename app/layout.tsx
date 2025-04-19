@@ -67,7 +67,6 @@ export const metadata: Metadata = {
   },
 };
 
-//TODO: Add google analytics
 //TODO: Add sitemap
 //TODO: Add robots.txt
 //TODO: Add og image
