@@ -10,15 +10,15 @@ export default function Header() {
         const checkIsMobile = () => {
             setIsMobile(window.innerWidth < 1024);
         };
-        
+
         checkIsMobile();
         window.addEventListener('resize', checkIsMobile);
-        
+
         return () => {
             window.removeEventListener('resize', checkIsMobile);
         };
     }, []);
-    
+
     useEffect(() => {
         if (isMenuOpen) {
             // Menü açıldığında scrollu engelle
@@ -27,7 +27,7 @@ export default function Header() {
             // Menü kapandığında scrollu geri aç
             document.body.style.overflow = 'auto';
         }
-        
+
         // Component unmount olduğunda scrollu geri aç
         return () => {
             document.body.style.overflow = 'auto';
@@ -53,11 +53,11 @@ export default function Header() {
                 <Link href={"/"} className="flex flex-col items-start">
                     <img src="/arabacılarpansiyon.svg" alt="Arabacılar Pansiyon & Hotel Logo" className="w-60 md:w-60 w-40" />
                 </Link>
-                
+
                 {isMobile ? (
                     <div className="lg:hidden">
-                        <button 
-                            onClick={toggleMenu} 
+                        <button
+                            onClick={toggleMenu}
                             className="text-[#383e42] p-2"
                             aria-label={isMenuOpen ? "Menüyü Kapat" : "Menüyü Aç"}
                         >
@@ -67,9 +67,9 @@ export default function Header() {
                 ) : (
                     <div>
                         <div className="flex flex-row items-end justify-end gap-2 border-b border-[#383e42] pb-4">
-                            <a href="tel:05331625539" className="text-[#383e42] text-base font-semibold drop-shadow flex flex-row items-center gap-2"><FaPhoneAlt size={16}/> <span className="font-bold">0533 162 55 39</span></a>
+                            <a href="tel:05331625539" className="text-[#383e42] text-base font-semibold drop-shadow flex flex-row items-center gap-2"><FaPhoneAlt size={16} /> <span className="font-bold">0533 162 55 39</span></a>
                             <div className="flex flex-row gap-3 mt-1 justify-end">
-                                <a href="https://wa.me/05331625539" aria-label="WhatsApp" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
+                                <a href={`https://api.whatsapp.com/send?phone=+905331625539&text=${encodeURIComponent("Merhaba, Boş odanız var mı?")}`} aria-label="WhatsApp" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
                                     <FaWhatsapp size={12} />
                                 </a>
                                 <a href="https://www.instagram.com/arabacilar.pansiyon/" aria-label="Instagram" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
@@ -95,19 +95,18 @@ export default function Header() {
 
             {/* Mobil Menü */}
             {isMobile && (
-                <div 
-                    className={`fixed inset-0 bg-white z-50 transform ${
-                        isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-                    } transition-transform duration-300 ease-in-out pt-8`}
+                <div
+                    className={`fixed inset-0 bg-white z-50 transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+                        } transition-transform duration-300 ease-in-out pt-8`}
                     style={{ top: '126px' }}
                 >
                     <div className="px-8 pb-6 flex flex-col">
                         <div className="border-b border-[#383e42] pb-4 mb-4">
                             <a href="tel:05331625539" className="text-[#383e42] text-base font-semibold drop-shadow flex flex-row items-center gap-2 mb-3">
-                                <FaPhoneAlt size={16}/> <span className="font-bold">0533 162 55 39</span>
+                                <FaPhoneAlt size={16} /> <span className="font-bold">0533 162 55 39</span>
                             </a>
                             <div className="flex flex-row gap-3 mt-1">
-                                <a href="https://wa.me/05331625539" aria-label="WhatsApp" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
+                                <a href={`https://api.whatsapp.com/send?phone=+905331625539&text=${encodeURIComponent("Merhaba, Boş odanız var mı?")}`} aria-label="WhatsApp" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
                                     <FaWhatsapp size={12} />
                                 </a>
                                 <a href="https://www.instagram.com/arabacilar.pansiyon/" aria-label="Instagram" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">

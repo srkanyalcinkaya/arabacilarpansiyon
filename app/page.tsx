@@ -381,7 +381,7 @@ export default function Home() {
               <div className="mt-10">
                 <h4 className="font-semibold text-[#FFD600] mb-4">Bizi Takip Edin</h4>
                 <div className="flex space-x-4">
-                  <a href="https://wa.me/05331625539" className="text-white hover:text-[#FFD600] transition-colors">
+                  <a href={`https://api.whatsapp.com/send?phone=+905331625539&text=${encodeURIComponent("Merhaba, Boş odanız var mı?")}`} className="text-white hover:text-[#FFD600] transition-colors">
                     <FaWhatsapp />
                   </a>
                   <a href="https://www.instagram.com/" className="text-white hover:text-[#FFD600] transition-colors">

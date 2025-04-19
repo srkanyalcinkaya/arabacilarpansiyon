@@ -23,12 +23,12 @@ export default function Footer() {
                     <h3 className="text-lg font-semibold tracking-wide">HADİ KONUŞALIM</h3>
                     <a href="mailto:arabacilarpansiyon@gmail.com" className="text-gray-600 hover:underline">arabacilarpansiyon@gmail.com</a>
                     <div className="flex flex-col gap-1">
-                        <a href="tel:05331625539" className="hover:underline">0533 162 55 39</a>
+                        <a href="tel:+905331625539" className="hover:underline">0533 162 55 39</a>
                     </div>
                     <h3 className="text-lg font-semibold tracking-wide mt-4">BİZİ ZİYARET ET</h3>
                     <p className="text-gray-700">Tuna Mah. 1690 Sk. No:71, Karşıyaka / İZMİR</p>
                     <div className="flex flex-row gap-4 mt-2">
-                        <a href="https://wa.me/05331625539" aria-label="WhatsApp" className="hover:scale-110 transition">
+                        <a href={`https://api.whatsapp.com/send?phone=+905331625539&text=${encodeURIComponent("Merhaba, Boş odanız var mı?")}`} aria-label="WhatsApp" className="hover:scale-110 transition">
                             <FaWhatsapp />
                         </a>
                         <a href="https://www.instagram.com/arabacilar.pansiyon/" aria-label="Instagram" className="hover:scale-110 transition">
