@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -68,6 +67,14 @@ export const metadata: Metadata = {
   },
 };
 
+//TODO: Add google analytics
+//TODO: Add sitemap
+//TODO: Add robots.txt
+//TODO: Add og image
+//TODO: Add google search console
+//TODO: Sürdürülebilirlik politikamız belgelerini ekle
+//TODO: Contact form google sheet ekle
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -93,6 +100,7 @@ export default function RootLayout({
         </div>
 
       </body>
+      <GoogleAnalytics gaId="G-Z4PW25ZFT9" />
     </html>
   );
 }
