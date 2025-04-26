@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Arabacılar Pansiyon & Hotel | İzmir'de Konforlu Konaklama",
   description: "İzmir'de huzurlu ve konforlu bir konaklama deneyimi. Arabacılar Pansiyon & Hotel'e hoş geldiniz!",
-  keywords: "Arabacılar Pansiyon, Hotel, İzmir konaklama, pansiyon, otel, ekonomik konaklama, merkezi konaklama",
+  keywords: "Arabacılar Pansiyon, Hotel, İzmir konaklama, pansiyon, otel, ekonomik konaklama, merkezi konaklama, izmir karşıyaka otel, izmir karşıyaka pansiyon, izmir karşıyaka hotel, izmir pansiyon, karşıyaka otel, karşıyaka pansiyon, karşıyaka hotel, izmir pansiyon, izmir hotel, izmir otel, karşıyaka pansiyon, karşıyaka hotel, izmir pansiyon, izmir hotel, arabıcılar pansiyon, arabıcılar otel, arabıcılar hotel, arabıcılar pansiyon",
   authors: [{ name: "Arabacılar Pansiyon & Hotel" }],
   creator: "Arabacılar Pansiyon & Hotel",
   publisher: "Arabacılar Pansiyon & Hotel",
@@ -69,7 +69,6 @@ export const metadata: Metadata = {
 };
 
 //TODO: Add og image
-//TODO: Sürdürülebilirlik politikamız belgelerini ekle
 //TODO: Contact form google sheet ekle
 
 export default function RootLayout({

@@ -48,10 +48,10 @@ export default function Header() {
         { name: 'İletişim', href: '/iletisim' },
     ]
     return (
-        <header className="relative w-full min-h-[120px] flex flex-col justify-end bg-white" style={{ minHeight: '120px' }}>
-            <div className="relative z-10 flex flex-row justify-between items-center px-8 pt-6 pb-2 w-full container mx-auto max-w-6xl">
+        <header className="relative w-full md:min-h-[120px] h-full flex flex-col justify-end bg-white" style={{ minHeight: '120px' }}>
+            <div className="relative z-10 flex flex-row justify-between items-center px-8 md:pt-6 pb-2 w-full container mx-auto max-w-6xl">
                 <Link href={"/"} className="flex flex-col items-start">
-                    <img src="/arabacılarpansiyon.svg" alt="Arabacılar Pansiyon & Hotel Logo" className="w-60 md:w-60 w-40" />
+                    <img src="/arabacılarpansiyon.svg" alt="Arabacılar Pansiyon & Hotel Logo" className="md:w-60 w-40" />
                 </Link>
 
                 {isMobile ? (
@@ -66,18 +66,18 @@ export default function Header() {
                     </div>
                 ) : (
                     <div>
-                        <div className="flex flex-row items-end justify-end gap-2 border-b border-[#383e42] pb-4">
+                        <div className="flex-row items-end justify-end gap-2 border-b border-[#383e42] pb-4 md:flex hidden">
                             <a href="tel:05331625539" className="text-[#383e42] text-base font-semibold drop-shadow flex flex-row items-center gap-2"><FaPhoneAlt size={16} /> <span className="font-bold">0533 162 55 39</span></a>
                             <div className="flex flex-row gap-3 mt-1 justify-end">
                                 <a href={`https://api.whatsapp.com/send?phone=+905331625539&text=${encodeURIComponent("Merhaba, Boş odanız var mı?")}`} aria-label="WhatsApp" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
-                                    <FaWhatsapp size={12} />
+                                    <FaWhatsapp size={12} color="#fff" />
                                 </a>
                                 <a href="https://www.instagram.com/arabacilar.pansiyon/" aria-label="Instagram" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
-                                    <FaInstagram size={12} />
+                                    <FaInstagram size={12} color="#fff" />
                                 </a>
                             </div>
                         </div>
-                        <nav className="relative z-10 w-full flex justify-center border-t border-white/30">
+                        <nav className="relative z-10 w-full justify-center border-t border-white/30 md:flex hidden">
                             <ul className="flex flex-wrap gap-8 py-3 text-[#383e42] text-base font-medium">
                                 {menu.map((item) => (
                                     <li key={item.name}>
@@ -98,7 +98,7 @@ export default function Header() {
                 <div
                     className={`fixed inset-0 bg-white z-50 transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
                         } transition-transform duration-300 ease-in-out pt-8`}
-                    style={{ top: '126px' }}
+                    style={{ top: '90px' }}
                 >
                     <div className="px-8 pb-6 flex flex-col">
                         <div className="border-b border-[#383e42] pb-4 mb-4">
@@ -107,18 +107,18 @@ export default function Header() {
                             </a>
                             <div className="flex flex-row gap-3 mt-1">
                                 <a href={`https://api.whatsapp.com/send?phone=+905331625539&text=${encodeURIComponent("Merhaba, Boş odanız var mı?")}`} aria-label="WhatsApp" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
-                                    <FaWhatsapp size={12} />
+                                    <FaWhatsapp size={12} color="#fff" />
                                 </a>
                                 <a href="https://www.instagram.com/arabacilar.pansiyon/" aria-label="Instagram" className="bg-[#383e42]/90 rounded-full p-2 flex items-center justify-center hover:bg-red-700 transition">
-                                    <FaInstagram size={12} />
+                                    <FaInstagram size={12} color="#fff" />
                                 </a>
                             </div>
                         </div>
                         <nav>
-                            <ul className="flex flex-col gap-5 text-[#383e42] text-lg font-medium">
+                            <ul className="flex flex-col gap-3 text-[#383e42] text-lg font-medium">
                                 {menu.map((item) => (
                                     <li key={item.name} onClick={() => setIsMenuOpen(false)}>
-                                        <a href={item.href} className="block py-2 opacity-90 hover:opacity-100 transition border-b border-[#383e42]/20">
+                                        <a href={item.href} className="block py-1 opacity-90 hover:opacity-100 transition border-b border-[#383e42]/20">
                                             {item.name}
                                         </a>
                                     </li>
