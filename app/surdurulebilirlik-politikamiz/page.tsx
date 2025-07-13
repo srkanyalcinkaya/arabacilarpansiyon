@@ -31,9 +31,9 @@ const documents = [
   { title: "ARABACILAR PANSIYON & HOTEL", file: "arabacilarpnasiyon.pdf" },
   { title: "SÜRDÜRÜLEBİLİRLİK", file: "surdurulebilirlik-pdf1732012922.90559.pdf" },
   { title: "ŞEHİR TANITIM KATALOĞU", file: "sehir-tanitim-katalogu.pdf" },
-  { title: "ERİŞİLEBİLİRLİK MESAJI", file: "ARBCLR-SYS-23%20ERİŞİLEBİLİRLİK%20MESAJI.pdf" },
-  { title: "KÜLTÜREL ALANLARA YÖNELİK ZİYARETÇİ DAVRANIŞ KURALLARI", file: "ARBCLR-SYS-31%20KÜLTÜREL%20ALANLARA%20YÖNELİK%20ZİYARETÇİ%20DAVRANIŞ%20KURALLARI.pdf" },
-  { title: "KÜLTÜREL ALANLAR LİSTESİ", file: "ARBCLR-SYS-32%20KÜLTÜREL%20ALANLAR%20LİSTESİ-İZMİR.pdf" },
+  { title: "ERİŞİLEBİLİRLİK MESAJI", file: "ARBCLR-SYS-23-ERİŞİLEBİLİRLİK-MESAJI.pdf" },
+  { title: "KÜLTÜREL ALANLARA YÖNELİK ZİYARETÇİ DAVRANIŞ KURALLARI", file: "ARBCLR-SYS-31-KÜLTÜREL-ALANLARA-YÖNELİK-ZİYARETÇİ-DAVRANIŞ-KURALLARI.pdf" },
+  { title: "KÜLTÜREL ALANLAR LİSTESİ", file: "ARBCLR-SYS-32-KÜLTÜREL-ALANLAR-LİSTESİ-İZMİR.pdf" },
 ]
 
 export default function Page() {
