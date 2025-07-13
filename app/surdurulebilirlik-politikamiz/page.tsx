@@ -30,7 +30,10 @@ export const metadata: Metadata = {
 const documents = [
   { title: "ARABACILAR PANSIYON & HOTEL", file: "arabacilarpnasiyon.pdf" },
   { title: "SÜRDÜRÜLEBİLİRLİK", file: "surdurulebilirlik-pdf1732012922.90559.pdf" },
-  { title: "ŞEHİR TANITIM KATALOĞU", file: "sehir-tanitim-katalogu-pdf1732013044.39853" },
+  { title: "ŞEHİR TANITIM KATALOĞU", file: "sehir-tanitim-katalogu.pdf" },
+  { title: "ERİŞİLEBİLİRLİK MESAJI", file: "ARBCLR-SYS-23%20ERİŞİLEBİLİRLİK%20MESAJI.pdf" },
+  { title: "KÜLTÜREL ALANLARA YÖNELİK ZİYARETÇİ DAVRANIŞ KURALLARI", file: "ARBCLR-SYS-31%20KÜLTÜREL%20ALANLARA%20YÖNELİK%20ZİYARETÇİ%20DAVRANIŞ%20KURALLARI.pdf" },
+  { title: "KÜLTÜREL ALANLAR LİSTESİ", file: "ARBCLR-SYS-32%20KÜLTÜREL%20ALANLAR%20LİSTESİ-İZMİR.pdf" },
 ]
 
 export default function Page() {
@@ -74,8 +77,8 @@ export default function Page() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {documents.map((doc, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-4 shadow hover:shadow-md transition-shadow">
-                <div className="flex items-center justify-between">
+              <div key={index} className="bg-gray-50 rounded-lg p-4 shadow hover:shadow-md transition-shadow ">
+                <div className="flex items-center justify-between h-16">
                   <h3 className="text-[#383e42] font-medium">{doc.title}</h3>
                   <a 
                     href={`/${doc.file}`} 
